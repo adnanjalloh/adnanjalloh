@@ -1,9 +1,9 @@
-<!-- Publish only after every WorkOps.Platform link below resolves and the repository passes its release checklist. -->
+<!-- Publish only after every WorkOps.Platform link resolves and the repository passes its release checklist. -->
 
 # Adnan Alloh
 
-**Senior .NET Backend Engineer** based in Mannheim, Germany, with 10+ years of experience
-building and modernizing SaaS, ERP, e-commerce, workflow, and integration-heavy systems.
+**Senior .NET Backend Engineer** based in Mannheim, Germany, with 10+ years of experience building
+and modernizing SaaS, ERP, e-commerce, workflow, and integration-heavy systems.
 
 I focus on secure, maintainable backend delivery: C# and ASP.NET Core APIs, Entity Framework Core,
 SQL, multi-tenant architecture, OAuth 2.0/OIDC/JWT authorization, Redis, messaging, background
@@ -16,21 +16,26 @@ work spanning implementation, architecture, code review, delivery, and mentoring
 
 ### [WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform)
 
-A clean-room, production-minded multi-tenant workflow API built with ASP.NET Core and .NET 10.
-It is currently at the foundation milestone; the repository clearly separates implemented evidence
-from planned capabilities.
+A production-minded multi-tenant workflow API built with ASP.NET Core and .NET 10. It demonstrates
+tenant-safe data access, permission-based authorization, PostgreSQL optimistic concurrency,
+Redis-backed feature limits, transactional outbox processing, RabbitMQ delivery, secure attachment
+handling, structured diagnostics, OpenTelemetry, and automated security/release controls.
 
-**Review paths:** [overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
-[architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/main/docs/architecture.md) ·
-[security](https://github.com/adnanjalloh/WorkOps.Platform/blob/main/docs/security.md) ·
-[testing](https://github.com/adnanjalloh/WorkOps.Platform/blob/main/docs/testing.md) ·
-[CI](https://github.com/adnanjalloh/WorkOps.Platform/blob/main/.github/workflows/ci.yml)
+The repository includes 78 unit, integration, functional, and architecture tests plus a runnable
+Bash/PowerShell golden scenario that proves role denial, stale-write conflicts, cross-workspace
+non-disclosure, audit evidence, and duplicate-safe notification delivery.
+
+**Start here:** [overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
+[architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
+[golden scenario](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
+[security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
+[CI](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/.github/workflows/ci.yml)
 
 ## Core stack
 
 `C#` · `ASP.NET Core` · `.NET 10 / 8 / 6` · `Entity Framework Core` ·
-`SQL Server` · `MongoDB` · `Redis` · `RabbitMQ` · `OAuth 2.0 / OIDC / JWT` ·
-`Serilog` · `GitHub Actions` · `Docker`
+`PostgreSQL / SQL Server` · `MongoDB` · `Redis` · `RabbitMQ` ·
+`OAuth 2.0 / OIDC / JWT` · `Serilog` · `OpenTelemetry` · `GitHub Actions` · `Docker`
 
 ## What I care about
 
@@ -39,4 +44,5 @@ pragmatic architecture, useful tests, and code another engineer can maintain.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/adnanjalloh/)
+[LinkedIn](https://www.linkedin.com/in/adnanjalloh/) ·
+[Email](mailto:adnanjhalloh@gmail.com)
