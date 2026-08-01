@@ -31,7 +31,7 @@ cross-workspace non-disclosure, audit evidence, and duplicate-safe notification 
 [Golden scenario](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
 [CI](https://github.com/adnanjalloh/WorkOps.Platform/actions)
 
-Released under the [MIT License](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/LICENSE).
+Licensed under the [MIT License](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/LICENSE).
 
 ## Portfolio stack
 
