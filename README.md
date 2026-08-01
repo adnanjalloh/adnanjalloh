@@ -20,7 +20,7 @@ A production-minded .NET 10 modular monolith demonstrating multi-tenant authoriz
 concurrency, Redis-backed entitlement caching, RabbitMQ outbox/inbox delivery,
 attachment-security boundaries, OpenTelemetry, and automated delivery controls.
 
-The repository includes 88 unit, integration, functional, and architecture tests plus a runnable
+The repository includes 100 unit, integration, functional, and architecture tests plus a runnable
 Bash/PowerShell golden scenario that exercises role denial, stale-write conflict handling,
 cross-workspace non-disclosure, audit evidence, and duplicate-safe notification effects.
 
