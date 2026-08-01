@@ -1,41 +1,49 @@
-<!-- Publish only after every WorkOps.Platform link resolves and the repository passes its release checklist. -->
+<!-- Publish only after every WorkOps.Platform link resolves and hosted checks pass. -->
 
 # Adnan Alloh
 
 **Senior .NET Backend Engineer** based in Mannheim, Germany, with 10+ years of experience building
 and modernizing SaaS, ERP, e-commerce, workflow, and integration-heavy systems.
 
-I focus on secure, maintainable backend delivery: C# and ASP.NET Core APIs, Entity Framework Core,
-SQL, multi-tenant architecture, OAuth 2.0/OIDC/JWT authorization, Redis, messaging, background
-processing, structured logging, performance tuning, and production troubleshooting.
+I work hands-on across C#, ASP.NET Core, Entity Framework Core, SQL, secure OAuth 2.0/OIDC/JWT
+authorization, Redis, messaging, background processing, observability, performance, and production
+troubleshooting. I previously served as a hands-on Technical Team Lead and now focus on senior
+individual-contributor delivery, architecture, code review, and mentoring.
 
-I previously worked as a hands-on Technical Team Lead and now focus on senior individual-contributor
-work spanning implementation, architecture, code review, delivery, and mentoring.
+**Open to Senior .NET Backend Engineer opportunities in Germany and across Europe.**
 
-## Featured engineering work
+## Featured project
 
 ### [WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform)
 
-A production-minded multi-tenant workflow API built with ASP.NET Core and .NET 10. It demonstrates
-tenant-safe data access, permission-based authorization, PostgreSQL optimistic concurrency,
-Redis-backed feature limits, transactional outbox processing, RabbitMQ delivery, secure attachment
-handling, structured diagnostics, OpenTelemetry, and automated security/release controls.
+A production-minded .NET 10 modular monolith demonstrating multi-tenant authorization, PostgreSQL
+concurrency, Redis-backed entitlement caching, RabbitMQ outbox/inbox delivery,
+attachment-security boundaries, OpenTelemetry, and automated delivery controls.
 
-The repository includes 78 unit, integration, functional, and architecture tests plus a runnable
-Bash/PowerShell golden scenario that proves role denial, stale-write conflicts, cross-workspace
-non-disclosure, audit evidence, and duplicate-safe notification delivery.
+The repository includes 88 unit, integration, functional, and architecture tests plus a runnable
+Bash/PowerShell golden scenario that exercises role denial, stale-write conflict handling,
+cross-workspace non-disclosure, audit evidence, and duplicate-safe notification effects.
 
-**Start here:** [overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
-[architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
-[golden scenario](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
-[security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
-[CI](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/.github/workflows/ci.yml)
+> Portfolio release boundary: the local identity realm, file scanner, and file storage are
+> demonstration adapters, not production services.
 
-## Core stack
+**Review paths:** [Overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
+[Architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
+[Security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
+[Golden scenario](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
+[CI](https://github.com/adnanjalloh/WorkOps.Platform/actions)
 
-`C#` · `ASP.NET Core` · `.NET 10 / 8 / 6` · `Entity Framework Core` ·
-`PostgreSQL / SQL Server` · `MongoDB` · `Redis` · `RabbitMQ` ·
-`OAuth 2.0 / OIDC / JWT` · `Serilog` · `OpenTelemetry` · `GitHub Actions` · `Docker`
+Released under the [MIT License](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/LICENSE).
+
+## Portfolio stack
+
+`.NET 10` · `ASP.NET Core` · `EF Core` · `PostgreSQL` · `Redis` · `RabbitMQ` ·
+`OpenTelemetry` · `Docker` · `GitHub Actions`
+
+## Professional experience
+
+`.NET 10 / 8 / 6` · `SQL Server` · `MongoDB` · `OAuth 2.0 / OIDC / JWT` · `Serilog` ·
+`Angular` · `React`
 
 ## What I care about
 
