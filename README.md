@@ -11,6 +11,7 @@ architecture, code review, mentoring, and production troubleshooting.
 **Open to Senior .NET Backend Engineer opportunities in Germany and across Europe.**
 
 [WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) ·
+[2-minute tour](https://github.com/adnanjalloh/WorkOps.Platform/releases/download/v0.1.0/WorkOps.Platform-2-Minute-Engineering-Tour.mp4) ·
 [Reviewer guide](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/reviewer-guide.md) ·
 [Case study](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/portfolio-case-study.md) ·
 [Evidence](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/evidence.md) ·
@@ -44,6 +45,7 @@ SBOM attestations.
 > and operated appropriately for a real deployment.
 
 **Start here:** [Overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
+[2-minute tour](https://github.com/adnanjalloh/WorkOps.Platform/releases/download/v0.1.0/WorkOps.Platform-2-Minute-Engineering-Tour.mp4) ·
 [Architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
 [Security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
 [Demo](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
