@@ -14,6 +14,8 @@ architecture, code review, mentoring, and production troubleshooting.
 [Reviewer guide](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/reviewer-guide.md) ·
 [Case study](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/portfolio-case-study.md) ·
 [Evidence](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/evidence.md) ·
+[v0.1.0 Release](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0) ·
+[Public GHCR](https://github.com/users/adnanjalloh/packages/container/package/workops.platform) ·
 [LinkedIn](https://www.linkedin.com/in/adnanjalloh/)
 
 ## Flagship case study — WorkOps.Platform
@@ -32,6 +34,11 @@ modular monolith that makes difficult backend concerns directly reviewable:
 results; and a runnable synthetic golden scenario covering role denial, idempotent replay, stale
 writes, tenant non-disclosure, audit, and notification delivery.
 
+**Public delivery evidence:** [v0.1.0](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0)
+includes an SPDX 2.3 SBOM and immutable digest evidence. Its public version and commit-addressed
+images resolve to digest `sha256:0297c341…debd5a`, with independently verified build-provenance and
+SBOM attestations.
+
 > Portfolio release boundary: this is not a production deployment. The local identity realm,
 > development scanner, and temporary file storage are demonstration adapters that must be replaced
 > and operated appropriately for a real deployment.
@@ -40,7 +47,8 @@ writes, tenant non-disclosure, audit, and notification delivery.
 [Architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
 [Security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
 [Demo](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
-[CI](https://github.com/adnanjalloh/WorkOps.Platform/actions)
+[CI](https://github.com/adnanjalloh/WorkOps.Platform/actions) ·
+[Release](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0)
 
 ## Engineering focus
 
