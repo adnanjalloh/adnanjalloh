@@ -1,52 +1,60 @@
 # Adnan Alloh
 
 **Senior .NET Backend Engineer** based in Mannheim, Germany, with 10+ years of experience building
-and modernizing SaaS, ERP, e-commerce, workflow, and integration-heavy systems.
+and modernizing SaaS, workflow, ERP, e-commerce, and integration-heavy systems.
 
-I work hands-on across C#, ASP.NET Core, Entity Framework Core, SQL, secure OAuth 2.0/OIDC/JWT
-authorization, Redis, messaging, background processing, observability, performance, and production
-troubleshooting. I previously served as a hands-on Technical Team Lead and now focus on senior
-individual-contributor delivery, architecture, code review, and mentoring.
+I design and deliver secure, maintainable backend systems with **C#, ASP.NET Core, REST APIs, EF
+Core, SQL, Redis, RabbitMQ, OAuth/OIDC/JWT, Docker, GitHub Actions, and OpenTelemetry**. I previously
+served as a hands-on Technical Team Lead and now focus on senior individual-contributor delivery,
+architecture, code review, mentoring, and production troubleshooting.
 
 **Open to Senior .NET Backend Engineer opportunities in Germany and across Europe.**
 
-## Featured project
+[WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) ·
+[Reviewer guide](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/reviewer-guide.md) ·
+[Case study](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/portfolio-case-study.md) ·
+[Evidence](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/evidence.md) ·
+[LinkedIn](https://www.linkedin.com/in/adnanjalloh/)
 
-### [WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform)
+## Flagship case study — WorkOps.Platform
 
-A production-minded .NET 10 modular monolith demonstrating multi-tenant authorization, PostgreSQL
-concurrency, Redis-backed entitlement caching, RabbitMQ outbox/inbox delivery,
-attachment-security boundaries, OpenTelemetry, and automated delivery controls.
+[WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) is a production-minded .NET 10
+modular monolith that makes difficult backend concerns directly reviewable:
 
-The repository includes 106 unit, integration, functional, and architecture tests plus a runnable
-Bash/PowerShell golden scenario that exercises role denial, stale-write conflict handling,
-cross-workspace non-disclosure, audit evidence, and duplicate-safe notification effects.
+- validated identity, active-membership workspace context, permission policies, default-deny data
+  access, and save-time tenant write guards;
+- PostgreSQL optimistic concurrency and tenant/user/route-scoped idempotent HTTP commands;
+- Redis-backed entitlement caching plus RabbitMQ outbox/inbox delivery with duplicate-safe effects;
+- secure attachment boundaries, OpenTelemetry instrumentation, structured logs, Docker delivery,
+  and pinned GitHub Actions workflows.
 
-> Portfolio release boundary: the local identity realm, file scanner, and file storage are
-> demonstration adapters, not production services.
+**Evidence:** 106 unit, integration, functional, and architecture tests; dated coverage and baseline
+results; and a runnable synthetic golden scenario covering role denial, idempotent replay, stale
+writes, tenant non-disclosure, audit, and notification delivery.
 
-**Review paths:** [Overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
+> Portfolio release boundary: this is not a production deployment. The local identity realm,
+> development scanner, and temporary file storage are demonstration adapters that must be replaced
+> and operated appropriately for a real deployment.
+
+**Start here:** [Overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
 [Architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
 [Security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
-[Golden scenario](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
+[Demo](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
 [CI](https://github.com/adnanjalloh/WorkOps.Platform/actions)
 
-Licensed under the [MIT License](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/LICENSE).
+## Engineering focus
 
-## Portfolio stack
+- Secure ASP.NET Core APIs and explicit contracts
+- Tenant-safe data access and authorization
+- Reliable messaging, background processing, and idempotency
+- SQL/EF Core modeling, concurrency, and performance
+- Observable production behavior and incident diagnosis
+- Pragmatic architecture, modernization, code review, and mentoring
 
-`.NET 10` · `ASP.NET Core` · `EF Core` · `PostgreSQL` · `Redis` · `RabbitMQ` ·
-`OpenTelemetry` · `Docker` · `GitHub Actions`
+## Additional experience
 
-## Professional experience
-
-`.NET 10 / 8 / 6` · `SQL Server` · `MongoDB` · `OAuth 2.0 / OIDC / JWT` · `Serilog` ·
-`Angular` · `React`
-
-## What I care about
-
-Clear API contracts, tenant-safe data access, secure authorization, observable production behavior,
-pragmatic architecture, useful tests, and code another engineer can maintain.
+`.NET 10 / 8 / 6` · `SQL Server` · `PostgreSQL` · `MongoDB` · `Angular` · `React` ·
+`SharePoint/SPFx` · `Enterprise integrations`
 
 ## Contact
 
