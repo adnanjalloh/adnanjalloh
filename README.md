@@ -1,55 +1,42 @@
 # Adnan Alloh
 
-**Senior .NET Backend Engineer** based in Mannheim, Germany, with 10+ years of experience building
-and modernizing SaaS, workflow, ERP, e-commerce, and integration-heavy systems.
+**Senior .NET Backend Engineer · Mannheim, Germany**
 
-I design and deliver secure, maintainable backend systems with **C#, ASP.NET Core, REST APIs, EF
-Core, SQL, Redis, RabbitMQ, OAuth/OIDC/JWT, Docker, GitHub Actions, and OpenTelemetry**. I previously
-served as a hands-on Technical Team Lead and now focus on senior individual-contributor delivery,
-architecture, code review, mentoring, and production troubleshooting.
+I build APIs and backend services for SaaS, workflow, ERP, e-commerce, and integration systems.
+I have 10+ years of software engineering experience and focus on C#, ASP.NET Core, SQL, and
+reliable background processing.
 
-**Open to Senior .NET Backend Engineer opportunities in Germany and across Europe.**
+I am looking for a hands-on .NET development role in Germany. I am open to relocation within
+Germany and to office, hybrid, or remote work. My working language is English.
 
-[WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) ·
-[2-minute tour](https://github.com/adnanjalloh/WorkOps.Platform/releases/download/v0.1.0/WorkOps.Platform-2-Minute-Engineering-Tour.mp4) ·
+[Explore WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) ·
+[Watch the two-minute tour](https://github.com/adnanjalloh/WorkOps.Platform/releases/download/v0.1.0/WorkOps.Platform-2-Minute-Engineering-Tour.mp4) ·
+[LinkedIn](https://www.linkedin.com/in/adnanjalloh/) ·
+[Email me](mailto:adnanjhalloh@gmail.com)
+
+## Featured project: WorkOps.Platform
+
+[WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) is a .NET API for managing team
+projects and work items. Each workspace has its own members, permissions, and data.
+
+It shows how I approach four practical backend problems:
+
+- Keeping one workspace's data out of another workspace's responses and writes.
+- Rejecting stale updates so one person's changes do not overwrite another's.
+- Handling repeated requests without creating duplicate projects.
+- Delivering notifications through RabbitMQ with an outbox and duplicate handling.
+
+**Built with:** C#, ASP.NET Core / .NET 10, EF Core, PostgreSQL, Redis, RabbitMQ, Keycloak, Docker,
+OpenTelemetry, and GitHub Actions.
+
+The repository includes unit, integration, functional, and architecture tests, a runnable Docker
+scenario, and a published container release. Results are linked to their dates and commits in the
+[evidence index](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/evidence.md).
+This is a portfolio project using synthetic data and local demonstration services.
+
 [Reviewer guide](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/reviewer-guide.md) ·
-[Case study](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/portfolio-case-study.md) ·
-[Evidence](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/evidence.md) ·
-[v0.1.0 Release](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0) ·
-[Public GHCR](https://github.com/users/adnanjalloh/packages/container/package/workops.platform) ·
-[LinkedIn](https://www.linkedin.com/in/adnanjalloh/)
-
-## Flagship case study — WorkOps.Platform
-
-[WorkOps.Platform](https://github.com/adnanjalloh/WorkOps.Platform) is a production-minded .NET 10
-modular monolith that makes difficult backend concerns directly reviewable:
-
-- validated identity, active-membership workspace context, permission policies, default-deny data
-  access, and save-time tenant write guards;
-- PostgreSQL optimistic concurrency and tenant/user/route-scoped idempotent HTTP commands;
-- Redis-backed entitlement caching plus RabbitMQ outbox/inbox delivery with duplicate-safe effects;
-- secure attachment boundaries, OpenTelemetry instrumentation, structured logs, Docker delivery,
-  and pinned GitHub Actions workflows.
-
-**Evidence:** 106 unit, integration, functional, and architecture tests; dated coverage and baseline
-results; and a runnable synthetic golden scenario covering role denial, idempotent replay, stale
-writes, tenant non-disclosure, audit, and notification delivery.
-
-**Public delivery evidence:** [v0.1.0](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0)
-includes an SPDX 2.3 SBOM and immutable digest evidence. Its public version and commit-addressed
-images resolve to digest `sha256:0297c341…debd5a`, with independently verified build-provenance and
-SBOM attestations.
-
-> Portfolio release boundary: this is not a production deployment. The local identity realm,
-> development scanner, and temporary file storage are demonstration adapters that must be replaced
-> and operated appropriately for a real deployment.
-
-**Start here:** [Overview](https://github.com/adnanjalloh/WorkOps.Platform#readme) ·
-[2-minute tour](https://github.com/adnanjalloh/WorkOps.Platform/releases/download/v0.1.0/WorkOps.Platform-2-Minute-Engineering-Tour.mp4) ·
-[Architecture](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/architecture.md) ·
-[Security](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/security.md) ·
-[Demo](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
-[CI](https://github.com/adnanjalloh/WorkOps.Platform/actions) ·
+[Architecture and tradeoffs](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/portfolio-case-study.md) ·
+[Run the demo](https://github.com/adnanjalloh/WorkOps.Platform/blob/master/docs/demo.md) ·
 [Release](https://github.com/adnanjalloh/WorkOps.Platform/releases/tag/v0.1.0)
 
 ## Engineering focus
@@ -62,6 +49,9 @@ SBOM attestations.
 - Pragmatic architecture, modernization, code review, and mentoring
 
 ## Additional experience
+
+I previously worked as a hands-on Technical Team Lead. My current search is focused on
+individual-contributor engineering roles.
 
 `.NET 10 / 8 / 6` · `SQL Server` · `PostgreSQL` · `MongoDB` · `Angular` · `React` ·
 `SharePoint/SPFx` · `Enterprise integrations`
